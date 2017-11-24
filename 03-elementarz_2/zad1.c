@@ -5,9 +5,9 @@
 
 #include <stdio.h>
 int main() {
-int M, n;
-int suma = 0;
-int i = 1;
+int M, n, suma, i;
+suma = 0;
+i = 1;
     printf("Podaj liczbe M: ");
     scanf("%d", &M);
   while (suma < M) {
