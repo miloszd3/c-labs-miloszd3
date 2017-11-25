@@ -3,8 +3,8 @@
 #include <stdio.h>
 int main() {
   
-const  char  *linijka=" * * * * * * * *";
+const  char  *szachownica=" * * * * * * * *";
 for (int i = 4; i > 0; i--) {
-printf("%s\n %s\n",linijka, linijka );
+printf("%s\n %s\n",szachownica, szachownica );
   }
 }
