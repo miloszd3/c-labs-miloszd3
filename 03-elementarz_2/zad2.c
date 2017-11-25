@@ -7,7 +7,7 @@ int main() {
 
   printf("Podaj liczbe calkowita: ");
   scanf("%d", &n);
-   for (i = 10; i <= n; i++) {
+   for (i = 2; i*i <= n; i++) {
       jest_pierwsza = 0;
   }
  printf("Podana liczba '%d' jest %s\n", n, jest_pierwsza ? "pierwsza" : "złożona");
